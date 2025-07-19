@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azkiya Zahrul Umam - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">AZU</a>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-link active" data-page="home">Home</a></li>
+                <li><a href="#" class="nav-link" data-page="about">About</a></li>
+                <li><a href="#" class="nav-link" data-page="portfolio">Portfolio</a></li>
+                <li><a href="#" class="nav-link" data-page="social">Social Media</a></li>
+                <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Page -->
+        <section id="home" class="page active">
+            <div class="container">
+                <div class="hero">
+                    <h1>Azkiya Zahrul Umam</h1>
+                    <p>Full-Stack Developer | Laravel Enthusiast | Badminton Player</p>
+                    <a href="#" class="cta-button nav-link" data-page="about">Pelajari Lebih Lanjut</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Page -->
+        <section id="about" class="page">
+            <div class="container">
+                <h2 class="page-title">Tentang Saya</h2>
+                <div class="about-content">
+                    <div class="about-grid">
+                        <div class="profile-img">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="about-text">
+                            <h2>Halo, Saya Azkiya!</h2>
+                            <p>Saya adalah seorang mahasiswa di <strong>Universitas Esa Unggul Tangerang</strong> yang passionate dalam dunia teknologi dan pengembangan web. Dengan keahlian dalam Laravel Filament, PHP, Docker, dan Linux Ubuntu, saya selalu antusias untuk mempelajari teknologi baru dan mengembangkan solusi inovatif.</p>
+                            
+                            <p>Selain coding, saya juga memiliki hobi bermain <strong>badminton</strong> yang mengajarkan saya tentang kedisiplinan, strategi, dan kerja tim - nilai-nilai yang saya terapkan juga dalam dunia pemrograman.</p>
+                            
+                            <p>Saya percaya bahwa teknologi dapat membuat perbedaan positif dalam kehidupan orang banyak, dan itulah yang memotivasi saya untuk terus belajar dan berkembang sebagai developer.</p>
+                        </div>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3>Keahlian Teknis</h3>
+                        <div class="skills-grid">
+                            <div class="skill-card">
+                                <i class="fab fa-laravel"></i>
+                                <h3>Laravel & Filament</h3>
+                                <p>Framework PHP modern untuk pengembangan web yang cepat dan efisien</p>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fab fa-php"></i>
+                                <h3>PHP</h3>
+                                <p>Backend development dengan pemahaman mendalam tentang OOP dan best practices</p>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fab fa-docker"></i>
+                                <h3>Docker</h3>
+                                <p>Containerization untuk deployment yang konsisten dan scalable</p>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fab fa-ubuntu"></i>
+                                <h3>Linux Ubuntu</h3>
+                                <p>Server administration dan pengembangan di lingkungan Linux</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Page -->
+        <section id="portfolio" class="page">
+            <div class="container">
+                <h2 class="page-title">Portfolio</h2>
+                <div class="portfolio-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>E-Commerce Laravel</h3>
+                            <i class="fas fa-shopping-cart" style="font-size: 2rem; margin-top: 1rem;"></i>
+                        </div>
+                        <div class="project-content">
+                            <p>Sistem e-commerce lengkap dengan Laravel Filament sebagai admin panel, termasuk manajemen produk, order, dan payment gateway.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Laravel</span>
+                                <span class="tech-tag">Filament</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">Docker</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Task Management System</h3>
+                            <i class="fas fa-tasks" style="font-size: 2rem; margin-top: 1rem;"></i>
+                        </div>
+                        <div class="project-content">
+                            <p>Aplikasi manajemen tugas dengan fitur real-time collaboration, menggunakan containerized deployment dengan Docker.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">Laravel</span>
+                                <span class="tech-tag">WebSocket</span>
+                                <span class="tech-tag">Ubuntu</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>University Portal</h3>
+                            <i class="fas fa-graduation-cap" style="font-size: 2rem; margin-top: 1rem;"></i>
+                        </div>
+                        <div class="project-content">
+                            <p>Portal mahasiswa dengan fitur akademik lengkap, sistem autentikasi, dan dashboard analytics menggunakan Laravel Filament.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Laravel</span>
+                                <span class="tech-tag">Filament</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">Docker</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>API Gateway</h3>
+                            <i class="fas fa-code" style="font-size: 2rem; margin-top: 1rem;"></i>
+                        </div>
+                        <div class="project-content">
+                            <p>RESTful API dengan sistem authentication dan rate limiting, di-deploy menggunakan Docker di server Ubuntu.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">Laravel</span>
+                                <span class="tech-tag">Redis</span>
+                                <span class="tech-tag">Nginx</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Media Page -->
+        <section id="social" class="page">
+            <div class="container">
+                <h2 class="page-title">Social Media</h2>
+                <div class="social-grid">
+                    <div class="social-card">
+                        <div class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <p>Lihat project-project dan kontribusi open source saya</p>
+                        <a href="https://github.com/azumam10" target="_blank" class="cta-button">Kunjungi GitHub</a>
+                    </div>
+
+                    <div class="social-card">
+                        <div class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <p>Connect dengan saya untuk networking profesional</p>
+                        <a href="https://linkedin.com/in/azkiyazahrul" target="_blank" class="cta-button">Connect LinkedIn</a>
+                    </div>
+
+                    <div class="social-card">
+                        <div class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <h3>Instagram</h3>
+                        <p>Follow journey saya di dunia teknologi dan badminton</p>
+                        <a href="https://instagram.com/Azumam_10" target="_blank" class="cta-button">Follow Instagram</a>
+                    </div>
+
+                    <div class="social-card">
+                        <div class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <h3>Twitter</h3>
+                        <p>Ikuti update terbaru dan pemikiran saya tentang tech</p>
+                        <a href="https://twitter.com/azkiyazahrul" target="_blank" class="cta-button">Follow Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Page -->
+        <section id="contact" class="page">
+            <div class="container">
+                <h2 class="page-title">Hubungi Saya</h2>
+                <div class="contact-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i> Kirim Pesan
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
